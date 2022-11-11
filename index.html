@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta lang="fr">
+        <meta title="Cours CSS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body>
+        <nav class="flex items-center justify-between w-5/6 mx-8 mt-5">
+            <div class="flex items-center">
+                <img src="kermit.jpg" alt="Mon logo" class="rounded-3xl w-20 h-20">
+                <p class="font-semibold ml-6">Mon logo</p>
+            </div>
+            <ul class="flex">
+                <li class="px-2">Lien 1</li>
+                <li class="px-2">Lien 2</li>
+                <li class="px-2">Lien 3</li>
+                <li class="px-2">Lien 4</li>
+            </ul>
+            
+            <button class="bg-gray-200 rounded py-1 px-2">Button -></button>
+        </nav>
+        
+        <section class="flex w-5/6 mx-8 my-9 bg-lime-200">
+            <img src="map.JPG" alt="La carte" class="w-3/5 object-cover">
+            <form class="w-2/5 py-4 px-4" action="">
+                <h1 class="font-bold sm:text-xl text-center xl:text-2xl">Formulaire de contact</h1>
+                <p class="sm:text-xs font-medium xl:font-medium mb-4 text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.
+                    Expedita a doloribus, nesciunt aut sunt temporibus 
+                    cupiditate in harum.
+                </p>
+                    <label class="text-gray-600 text-sm mb-4 mt-2">Name</label>
+                    <input class="border-gray-500 rounded w-full py-1 mt-2 mb-2 focus:outline-none focus:outline-stone-500" type="text" placeholder="  Ton nom">
+                    <!--<p class="text-red-500 text-xs italic">Please fill out this field.</p>-->
+                    <label class="text-gray-600 text-sm mb-4 mt-2">Email</label>
+                    <input class="rounded w-full py-1 mt-2 mb-2 focus:outline-none focus:outline-stone-500" type="text" placeholder="  Ton email">
+                    <label class="text-gray-600 text-sm mt-2">Message</label>
+                    <textarea name="Message" class="mt-2 rounded w-full py-1 h-24 focus:outline-none focus:outline-stone-500" placeholder="  Ton message"></textarea>
+                    <button class="bg-indigo-600 py-1 w-full text-white my-3 rounded">Envoyer le message</button>
+                    <p class="text-gray-400 text-xs italic">Lorem trop hien sim aet dolor.</p>
+                </form>
+        </section>
+
+        <!-- Demo du prof
+            <section class="w-4/5 bg-lime-100 mx-auto my-20 text-gray-500">
+                <div class="flex flex-col md:flex-raw gap-8 mb-20">
+                    <div class="w-full xl:w-1/2">
+                        <h1 class="text-red-700 font-semibold text-3xl mb-4">Nos derniers articles de blog</h1>
+                    <div class="h-1 W-1/4 bg-indigo-600 rounded-3xl"></div>
+                </div>
+                <p class="w-full xl:w-1/2 font-medium">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Dolore aliquid praesentium eum quasi a dolorem cupiditate aliquam consectetur, 
+                    repellat illum debitis totam ipsum perspiciatis ut! Dolores error tenetur labore nisi.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+                <div class="bg-gray-200 rounded-md p-6">
+                    <img src="kermit.jpg" alt="Mon kermit préféré" class="rounded mb-6">
+                    <button class="uppercase text-indigo-600 hover:text-indigo-800 text-indigo">Catégorie</button>
+                    <h2 class="text-gray-800 mb-2">Titre de mon article</h2>
+                    <p class="mb-3">Lorem ipsum</p>
+                    <button class="text-indigo-600 hover:text-indigo-800">Lire la suite</button>
+                </div>
+
+                <div class="bg-gray-200 rounded-md p-6">
+                    <img src="kermit.jpg" alt="Mon kermit préféré" class="rounded mb-6">
+                    <button class="uppercase text-indigo-600 hover:text-indigo-800 text-indigo">Catégorie</button>
+                    <h2 class="text-gray-800 mb-2">Titre de mon article</h2>
+                    <p class="mb-3">Lorem ipsum</p>
+                    <button class="text-indigo-600 hover:text-indigo-800">Lire la suite</button>
+                </div>
+
+                <div class="bg-gray-200 rounded-md p-4">
+                    <img src="kermit.jpg" alt="Mon kermit préféré" class="rounded mb-6">
+                    <button class="uppercase text-indigo-600 hover:text-indigo-800 text-indigo">Catégorie</button>
+                    <h2 class="text-gray-800 mb-2">Titre de mon article</h2>
+                    <p class="mb-3">Lorem ipsum</p>
+                    <button class="text-indigo-600 hover:text-indigo-800">Lire la suite</button>
+                </div>
+
+                <div class="bg-gray-200 rounded-md p-4">
+                    <img src="kermit.jpg" alt="Mon kermit préféré" class="rounded mb-6">
+                    <button class="uppercase text-indigo-600 hover:text-indigo-800 text-indigo">Catégorie</button>
+                    <h2 class="text-gray-800 mb-2">Titre de mon article</h2>
+                    <p class="mb-3">Lorem ipsum</p>
+                    <button class="text-indigo-600 hover:text-indigo-800">Lire la suite</button>
+                </div>
+            </div>
+        </section>
+        -->
+    </body>
+</html>
